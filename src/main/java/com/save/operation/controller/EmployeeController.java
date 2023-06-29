@@ -28,10 +28,10 @@ public class EmployeeController {
 		
 	}
 	
-	@GetMapping("/getemployee")
-	public List<Employee> getAllEmployee(){
-		
-		return employeeService.getAllEmployee();
-	}
+//	@GetMapping("/getemployee")
+//	public List<Employee> getAllEmployee(){
+//		
+//		return employeeService.getAllEmployee();
+//	}
 	
 }
